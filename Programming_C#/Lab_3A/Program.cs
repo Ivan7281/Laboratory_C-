@@ -71,7 +71,6 @@ namespace Lab_3A
 
         public void Delete()
         {
-            //float maxPrice = this.toys.Max(x => x.price);
             this.men = this.men.Where(elem => elem.apartment == true).ToList();
         }
     }
